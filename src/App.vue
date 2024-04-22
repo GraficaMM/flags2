@@ -2,7 +2,7 @@
 import { onMounted, ref } from 'vue'
 import PageHeader from './components/PageHeader.vue';
 import axiosClient from "./utils/axios"
-import { pais } from './models/ModeloPais'
+import { pais } from './models/ModeloPais.ts'
 // lo ultimo. primero dejo el array vacio y más adelante lo tipo
 const paises = ref<pais[]>([])
 // primero esto 
